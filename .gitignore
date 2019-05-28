@@ -1,2 +1,7 @@
 obj
 .vscode
+test.o
+test
+libthreadpool.a
+threadpool.code-workspace
+/*.code-workspace
