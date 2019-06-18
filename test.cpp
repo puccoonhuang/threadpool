@@ -65,7 +65,7 @@ int main(int argc, char ** argv)
 
 	pool.joinAll();
 
-	sleep(20);
+	sleep(5);
 	pool.collect();
 	SHOW_INFO;
 
