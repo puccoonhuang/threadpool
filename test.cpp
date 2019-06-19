@@ -8,11 +8,11 @@ using namespace std;
 using namespace TP;
 
 
-#define SHOW_INFO do{\
+#define SHOW_INFO do {\
 	cout << "threadpool allocated:" << pool.allocated() <<\
 			",used:" << pool.used() << ",capacity:" << pool.capacity() <<\
 			",available:" << pool.available() << endl;\
-		}while(0)
+		} while(0)
 
 
 class CountNumber
