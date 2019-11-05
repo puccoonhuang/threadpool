@@ -26,6 +26,7 @@ bool Debugger::isAvailable()
 
 void Debugger::message(const std::string& msg)
 {
+	//nothing
 
 }
 
